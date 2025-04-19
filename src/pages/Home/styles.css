@@ -21,83 +21,15 @@
     
 }
 
-input {
-    font-family: 'Poppins', sans-serif;
-    border: 1px solid #999999;
-    border-radius: 22px;
-    min-width: 25px;
-    width: 85%;
-    margin-right: 12px;
-    background-color: transparent;
-    font-size: 18px;
-    padding: 10px; 
-    color: #FFFFFF;
-    
-}
-
-button {
-    font-family: 'Poppins', sans-serif;
-    border: 1px solid #999999;
-    border-radius: 22px;
-    margin-right: 12px;
-    background: #2D333B;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background: #444c56;
-    border-color: #FFFFFF;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.perfil {
-    display: flex;
-    margin: 40px 0;
-}
-
-.profile {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    border: 2px solid #E5E5E5;
-    margin-right: 32px;
-}
-
-.perfil h3 {
-    color: #FFFFFF;
-    font-size: 32px;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
-
-.perfil span {
-    display: block;
-    color: #FFFFFF;
-    font-size: 16px;
-    margin: 20px 0 0 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-
-.perfil p {
-    color: #FFFFFF;
-    font-size: 16px;
-    margin: 20px 0 0 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-
-.repositorio {
-    font-size: 32px;
-    color: #FFFFFF;
-    margin: 12px 0;
-    text-align: center;
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .search-container {

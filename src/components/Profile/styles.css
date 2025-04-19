@@ -1,0 +1,51 @@
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 40px 0;
+  animation: fadeIn 0.5s ease-in;
+  transition: all 0.3s ease;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #E5E5E5;
+}
+
+.perfil h3 {
+  color: #FFFFFF;
+  font-size: 32px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.perfil span {
+  display: block;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.perfil p {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
